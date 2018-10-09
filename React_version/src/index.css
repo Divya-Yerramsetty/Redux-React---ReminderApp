@@ -1,0 +1,89 @@
+
+body {
+  margin: 20px;
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+
+
+.reminder-card {
+	width: 250px;
+	height: 250px;
+	border: 1px solid #000;
+	background-color:#c2effb;
+  margin: 16px;
+}
+
+
+.card-board > div{
+  background-color: #fff;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  width: 1175px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card-content{
+background-color:#c2effb;
+}
+
+button {
+  width: 42%;
+  height: 24px;
+  margin-top: 0px;
+  margin-left: 45px;
+}
+
+.product-action{
+  padding: 16px;
+}
+
+.product-action .added{
+  width: 60%;
+  height: 30px;
+  background: yellow;
+  font-size: 15px;
+  color: black;
+  border:1px solid black;
+}
+
+.product-action .delete {
+  width: 60%;
+  height: 30px;
+  background:#f36558;
+  font-size: 15px;
+  color: white;
+  border:1px solid black;
+}
+
+  .cart-cont {
+  
+    display: flex;
+    height: 34px;
+    margin-top: 1%;
+    justify-content: right;
+    border: 1px solid black;
+    align-items: center;
+    padding: 0% 2% 0 2%;
+}
+
+  div input {
+  height: 30px;
+  margin: 1% 0 0 0;
+  font-size: 20px;
+  width: 50%;
+}
+  .cart-font{
+    color: black;
+    font-weight: bold;
+  }
+  .header{
+    display: flex;
+    align-content:center;
+    justify-content: center;
+  }
+
+
